@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8 text-center">Welcome to Character Chat</h1>
+        
+        <div class="mb-8 text-center">
+            <p class="text-lg">Choose a character from our collection and start an engaging conversation!</p>
+            <p class="text-sm text-gray-600 mt-2">Each character has their own unique personality, background, and knowledge.</p>
+        </div>
+        
+        <div class="card rounded-lg shadow-lg p-6 mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {% for profile in profiles %}
+                    <a href="{% url 'chat_interface' profile.id %}" 
+                       class="block border rounded-lg hover:shadow-lg transition-all transform hover:-translate-y-1 profile-card overflow-hidden">
+                        
+                        {% if profile.image %}
+                            <div class="h-48 overflow-hidden">
+                                <img src="{{ profile.image.url }}" alt="{{ profile.name }}" class="w-full h-full object-cover">
+                            </div>
+                        {% else %}
+                            <div class="h-48 bg-gray-200 flex items-center justify-center">
+                                <span class="text-gray-500">No Image Available</span>
+                            </div>
+                        {% endif %}
+                        
+                        <div class="p-4">
+                            <h2 class="text-xl font-semibold mb-2">{{ profile.name }}</h2>
+                            <p class="text-gray-700 mb-3">{{ profile.description|truncatewords:25 }}</p>
+                            
+                            {% if profile.age_range or profile.gender %}
+                            <div class="flex flex-wrap gap-2 mb-3">
+                                {% if profile.age_range %}
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">
+                                        {{ profile.get_age_range_display }}
+                                    </span>
+                                {% endif %}
+                                
+                                {% if profile.gender %}
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">
+                                        {{ profile.get_gender_display }}
+                                    </span>
+                                {% endif %}
+                            </div>
+                            {% endif %}
+                            
+                            <div class="mt-4 text-right">
+                                <span class="inline-block px-3 py-1 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600">
+                                    Chat Now
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="text-center p-4 bg-gray-50 rounded-lg shadow-sm">
+            <h3 class="font-medium mb-2">How it Works</h3>
+            <p class="text-gray-600">Select any character card above to start a conversation. You can chat about various topics based on each character's background and expertise.</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .profile-card {
+        transition: all 0.3s ease;
+    }
+    .profile-card:hover {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+</style>
+{% endblock %}

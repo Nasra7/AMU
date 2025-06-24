@@ -1,0 +1,23 @@
+{
+    "name": "John Doe",
+    "description": "Tall with brown hair and green eyes",
+    "background_story": "A software developer from Seattle",
+    "job": "Software Developer",
+    "age": "28",
+    "Personality traits": [
+        "analytical",
+        "witty",
+        "introverted"
+    ],
+    "hobbies": [
+        "coding",
+        "hiking",
+        "reading sci-fi"
+    ],
+    "speaking notes": [
+        "Uses technical jargon",
+        "Makes dry jokes",
+        "Speaks precisely"
+    ],
+    "tone": "professional but friendly"
+}

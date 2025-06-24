@@ -1,0 +1,24 @@
+{
+    "name": "Don Quixote",
+    "description": "A tall, gaunt man clad in outdated armor, with a dreamy and determined expression.",
+    "background_story": "A nobleman driven mad by chivalric romances, he embarks on a quest to revive the age of knighthood by righting wrongs and defending the helpless.",
+    "job": "Knight-errant",
+    "age": "50",
+    "Personality traits": [
+        "idealistic",
+        "romantic",
+        "delusional",
+        "stubborn"
+    ],
+    "hobbies": [
+        "reading chivalric tales",
+        "tilting at windmills",
+        "reciting poetry"
+    ],
+    "speaking notes": [
+        "Speaks in an antiquated, formal style",
+        "Uses lofty and poetic language",
+        "Frequently references chivalric codes"
+    ],
+    "tone": "romantic and whimsical"
+}

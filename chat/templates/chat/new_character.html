@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8 text-center">Add New Character</h1>
+        
+        <!-- Success Message Overlay -->
+        <div id="success-overlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+            <div class="bg-white rounded-lg p-8 max-w-md w-full text-center">
+                <div class="mb-4">
+                    <svg id="checkmark" class="mx-auto" width="80" height="80" viewBox="0 0 80 80">
+                        <circle id="success-circle" cx="40" cy="40" r="36" fill="none" stroke="#22c55e" stroke-width="6" stroke-linecap="round" transform="rotate(-90 40 40)"/>
+                        <path id="success-check" d="M25 40 L35 50 L55 30" fill="none" stroke="#22c55e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Character Added!</h2>
+                <p class="text-gray-600 mb-6">Your character has been successfully created.</p>
+                <button id="close-overlay" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-6 rounded-lg">
+                    Close
+                </button>
+                <a href="/" class="ml-2 inline-block bg-gray-500 hover:bg-gray-600 text-white font-medium py-2 px-6 rounded-lg">
+                    Back to Home
+                </a>
+            </div>
+        </div>
+        
+        <div class="card rounded-lg shadow-lg p-6">
+            <form method="POST" enctype="multipart/form-data" class="space-y-6" id="character-form">
+                {% csrf_token %}
+                
+                <!-- Profile Photo -->
+                <div class="mb-4">
+                    <label for="image" class="block text-sm font-medium text-gray-700 mb-1">Profile Photo</label>
+                    <div class="flex items-center">
+                        <div id="image-preview" class="w-24 h-24 border rounded-lg flex items-center justify-center mr-4 overflow-hidden">
+                            <span id="preview-placeholder" class="text-gray-400">No image</span>
+                            <img id="preview-image" src="" alt="Preview" class="w-full h-full object-cover hidden">
+                        </div>
+                        <div>
+                            <label for="image-upload" class="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg inline-block">
+                                Upload Image
+                            </label>
+                            <input type="file" id="image-upload" name="image" accept="image/*" class="hidden">
+                            <p class="text-xs text-gray-500 mt-1">Optional: Character portrait</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Name -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="first_name" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                        <input type="text" id="first_name" name="first_name" class="w-full p-2 border rounded" required>
+                    </div>
+                    <div>
+                        <label for="last_name" class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" class="w-full p-2 border rounded">
+                        <p class="text-xs text-gray-500 mt-1">Optional</p>
+                    </div>
+                </div>
+                
+                <!-- Age Range and Gender -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="age_range" class="block text-sm font-medium text-gray-700 mb-1">Age Range</label>
+                        <select id="age_range" name="age_range" class="w-full p-2 border rounded">
+                            <option value="">Select Age Range</option>
+                            <option value="child">Child (0-12)</option>
+                            <option value="teen">Teenager (13-19)</option>
+                            <option value="young_adult">Young Adult (20-35)</option>
+                            <option value="adult">Adult (36-50)</option>
+                            <option value="senior">Senior (51+)</option>
+                            <option value="unknown">Unknown/Not specified</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="gender" class="block text-sm font-medium text-gray-700 mb-1">Gender</label>
+                        <select id="gender" name="gender" class="w-full p-2 border rounded">
+                            <option value="">Select Gender</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Description -->
+                <div>
+                    <label for="description" class="block text-sm font-medium text-gray-700 mb-1">Description</label>
+                    <textarea id="description" name="description" rows="3" class="w-full p-2 border rounded" placeholder="General description of the character" required></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Example: A billionaire who uses his resources and intellect to fight crime in Gotham under the mask of Batman.</p>
+                </div>
+                
+                <!-- Background Story -->
+                <div>
+                    <label for="background_story" class="block text-sm font-medium text-gray-700 mb-1">Background Story</label>
+                    <textarea id="background_story" name="background_story" rows="3" class="w-full p-2 border rounded" placeholder="Character's past that shaped their personality" required></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Example: Haunted by the murder of his parents, Bruce dedicated his life to justice, creating the Batman persona to fight corruption.</p>
+                </div>
+                
+                <!-- Personality Traits -->
+                <div>
+                    <label for="personality_traits" class="block text-sm font-medium text-gray-700 mb-1">Personality Traits</label>
+                    <textarea id="personality_traits" name="personality_traits" rows="5" class="w-full p-2 border rounded" placeholder="Enter traits separated by commas" required></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Example: intelligent, disciplined, extraverted, determined, secretive</p>
+                </div>
+                
+                <!-- Speech Pattern -->
+                <div>
+                    <label for="speech_pattern" class="block text-sm font-medium text-gray-700 mb-1">Speech Pattern</label>
+                    <textarea id="speech_pattern" name="speech_pattern" rows="5" class="w-full p-2 border rounded" placeholder="Describe how the character speaks" required></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Example: tone: gravelly, style: commanding and secretive, tends to speak in short sentences</p>
+                </div>
+                
+                <!-- Knowledge Base -->
+                <div>
+                    <label for="knowledge_base" class="block text-sm font-medium text-gray-700 mb-1">Knowledge Base</label>
+                    <textarea id="knowledge_base" name="knowledge_base" rows="5" class="w-full p-2 border rounded" placeholder="Enter fields of knowledge with level separated by commas" required></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Example: criminology: expert, technology: advanced, martial arts: master, psychology: proficient</p>
+                </div>
+                
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-lg">
+                        Save Profile
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Include anime.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+<script src="/static/js/new_character.js"></script>
+{% endblock %}

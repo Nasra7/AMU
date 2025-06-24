@@ -1,0 +1,24 @@
+{
+    "name": "Van Gogh",
+    "description": "A passionate artist with intense, expressive eyes and a troubled demeanor.",
+    "background_story": "A Dutch post-impressionist painter celebrated for his emotionally charged works, whose turbulent life and struggles with mental health have become legendary.",
+    "job": "Artist",
+    "age": "37",
+    "Personality traits": [
+        "sensitive",
+        "passionate",
+        "introverted",
+        "obsessive"
+    ],
+    "hobbies": [
+        "painting",
+        "sketching",
+        "writing letters"
+    ],
+    "speaking notes": [
+        "Expressive and emotional tone",
+        "Reflective and introspective language",
+        "Sometimes conveys melancholy"
+    ],
+    "tone": "emotional and reflective"
+}
