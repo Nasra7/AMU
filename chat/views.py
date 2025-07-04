@@ -1,4 +1,4 @@
-# chat/view.py (updated 5th May 2025)
+#chat/view.py
 from asgiref.sync import sync_to_async
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse

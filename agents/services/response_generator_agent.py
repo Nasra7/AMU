@@ -1,13 +1,18 @@
 from .base_agent import BaseAgent
-from .ollama_service import OllamaService
+from .llm_provider import LLMProviderAdapter
 from asgiref.sync import sync_to_async
 
 class ResponseGeneratorAgent(BaseAgent):
-    def __init__(self, personality_profile, model_name=None, language="en"):
+    def __init__(self, personality_profile, model_name=None, language="en", primary_provider="ollama", secondary_provider="openai"):
         super().__init__(model_name)
         self.personality_profile = personality_profile
-        self.ollama_service = OllamaService()
         self.language = language
+        
+        # Initialize the LLM provider adapter
+        self.llm_adapter = LLMProviderAdapter(
+            primary_provider=primary_provider,
+            secondary_provider=secondary_provider
+        )
 
     def _create_system_prompt(self):
         """Create system prompt based on personality profile and language"""
@@ -68,13 +73,13 @@ class ResponseGeneratorAgent(BaseAgent):
             if isinstance(conversation_history, str) and len(conversation_history.strip()) > 0:
                 return f"Previous conversation:\n{conversation_history}\n\nUser: {user_message}\n{self.personality_profile.name}:"
             elif isinstance(conversation_history, list):
-                # If it's a list (context from Ollama), don't try to format it
+                # If it's a list (context from different providers), don't try to format it
                 # Just use the current message
                 return f"User: {user_message}\n{self.personality_profile.name}:"
         # Otherwise just use the current message
         return f"User: {user_message}\n{self.personality_profile.name}:"
 
-    async def process(self, user_message, conversation_history=None, language=None):
+    async def process(self, user_message, conversation_history=None, language=None, provider=None):
         """Process user message and generate response"""
         try:
             # Update language if provided
@@ -88,21 +93,34 @@ class ResponseGeneratorAgent(BaseAgent):
             # Otherwise, pass None as context
             context_to_pass = conversation_history if isinstance(conversation_history, list) else None
             
-            # Determine model based on language
-            model = None  # Let the OllamaService handle model selection based on language
+            # Determine model based on language (let providers handle this)
+            model = None
             
-            response, new_context = await self.ollama_service.generate(
+            response, new_context = await self.llm_adapter.generate(
                 prompt=formatted_prompt,
                 system_prompt=system_prompt,
                 context=context_to_pass,
                 model=model,
-                language=self.language
+                language=self.language,
+                provider=provider
             )
             
             return response, new_context
         except Exception as e:
             raise Exception(f"Error in response generation: {str(e)}")
 
-    async def generate_response(self, user_message, conversation_history=None, language=None):
+    async def generate_response(self, user_message, conversation_history=None, language=None, provider=None):
         """Main method to generate responses"""
-        return await self.process(user_message, conversation_history, language)
+        return await self.process(user_message, conversation_history, language, provider)
+    
+    def get_available_providers(self):
+        """Get available providers"""
+        return self.llm_adapter.get_available_providers()
+    
+    def set_primary_provider(self, provider_name):
+        """Set primary provider"""
+        self.llm_adapter.set_primary_provider(provider_name)
+    
+    def set_secondary_provider(self, provider_name):
+        """Set secondary provider"""
+        self.llm_adapter.set_secondary_provider(provider_name)

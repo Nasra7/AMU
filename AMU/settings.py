@@ -210,3 +210,9 @@ ELEVENLABS_VOICE_IDS = {
     'female_adult': os.environ.get('ELEVENLABS_FEMALE_ADULT_VOICE'),
     'female_senior': os.environ.get('ELEVENLABS_FEMALE_SENIOR_VOICE'),
 }
+
+OLLAMA_BASE_URL = "http://localhost:11434"
+OPENAI_API_KEY = "Mbase here"
+
+DEFAULT_PRIMARY_PROVIDER = "ollama"
+DEFAULT_SECONDARY_PROVIDER = "openai"

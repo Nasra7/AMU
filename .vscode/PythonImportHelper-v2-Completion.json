@@ -1,0 +1,1785 @@
+[
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "isExtraImport": true,
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "isExtraImport": true,
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "isExtraImport": true,
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "isExtraImport": true,
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "isExtraImport": true,
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "isExtraImport": true,
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "chat",
+        "description": "chat",
+        "isExtraImport": true,
+        "detail": "chat",
+        "documentation": {}
+    },
+    {
+        "label": "txt_to_speech",
+        "importPath": "conversations.views",
+        "description": "conversations.views",
+        "isExtraImport": true,
+        "detail": "conversations.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_audio",
+        "importPath": "conversations.views",
+        "description": "conversations.views",
+        "isExtraImport": true,
+        "detail": "conversations.views",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "django.conf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "sync_to_async",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "sync_to_async",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "sync_to_async",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "WikipediaService",
+        "importPath": "agents.services.wiki_service",
+        "description": "agents.services.wiki_service",
+        "isExtraImport": true,
+        "detail": "agents.services.wiki_service",
+        "documentation": {}
+    },
+    {
+        "label": "wikipediaapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wikipediaapi",
+        "description": "wikipediaapi",
+        "detail": "wikipediaapi",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectDoesNotExist",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "isExtraImport": true,
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "isExtraImport": true,
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "isExtraImport": true,
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "isExtraImport": true,
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "isExtraImport": true,
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseGeneratorAgent",
+        "importPath": "agents.services.response_generator_agent",
+        "description": "agents.services.response_generator_agent",
+        "isExtraImport": true,
+        "detail": "agents.services.response_generator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseGeneratorAgent",
+        "importPath": "agents.services.response_generator_agent",
+        "description": "agents.services.response_generator_agent",
+        "isExtraImport": true,
+        "detail": "agents.services.response_generator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseGeneratorAgent",
+        "importPath": "agents.services.response_generator_agent",
+        "description": "agents.services.response_generator_agent",
+        "isExtraImport": true,
+        "detail": "agents.services.response_generator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileManager",
+        "importPath": "personality_profiles.services.profile_manager",
+        "description": "personality_profiles.services.profile_manager",
+        "isExtraImport": true,
+        "detail": "personality_profiles.services.profile_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ElevenLabs",
+        "importPath": "elevenlabs.client",
+        "description": "elevenlabs.client",
+        "isExtraImport": true,
+        "detail": "elevenlabs.client",
+        "documentation": {}
+    },
+    {
+        "label": "default_storage",
+        "importPath": "django.core.files.storage",
+        "description": "django.core.files.storage",
+        "isExtraImport": true,
+        "detail": "django.core.files.storage",
+        "documentation": {}
+    },
+    {
+        "label": "ContentFile",
+        "importPath": "django.core.files.base",
+        "description": "django.core.files.base",
+        "isExtraImport": true,
+        "detail": "django.core.files.base",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "TTSService",
+        "importPath": "conversations.services.txt_to_speech",
+        "description": "conversations.services.txt_to_speech",
+        "isExtraImport": true,
+        "detail": "conversations.services.txt_to_speech",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOllama",
+        "importPath": "langchain_community.chat_models",
+        "description": "langchain_community.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_community.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "AMU.personality_profiles.management.commands.load_profiles",
+        "description": "AMU.personality_profiles.management.commands.load_profiles",
+        "peekOfCode": "class Command(BaseCommand):\n    help = 'Load personality profiles from JSON files'\n    def handle(self, *args, **options):\n        data_dir = os.path.join('personality_profiles', 'data')\n        # Create directory if it doesn't exist\n        if not os.path.exists(data_dir):\n            os.makedirs(data_dir)\n            self.stdout.write(self.style.SUCCESS(f'Created directory: {data_dir}'))\n        # Load all JSON files in the directory\n        for filename in os.listdir(data_dir):",
+        "detail": "AMU.personality_profiles.management.commands.load_profiles",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "AMU.asgi",
+        "description": "AMU.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "AMU.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-vcvvz-1g53&yjaw$^g%6batbvixgd%)!%@h1jn8c6+0i!-b5o3\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\n# INSTALLED_APPS = [",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-vcvvz-1g53&yjaw$^g%6batbvixgd%)!%@h1jn8c6+0i!-b5o3\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\n# INSTALLED_APPS = [\n#     \"django.contrib.admin\",\n#     \"django.contrib.auth\",\n#     \"django.contrib.contenttypes\",\n#     \"django.contrib.sessions\",",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\n# INSTALLED_APPS = [\n#     \"django.contrib.admin\",\n#     \"django.contrib.auth\",\n#     \"django.contrib.contenttypes\",\n#     \"django.contrib.sessions\",\n#     \"django.contrib.messages\",\n#     \"django.contrib.staticfiles\",",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\n# INSTALLED_APPS = [\n#     \"django.contrib.admin\",\n#     \"django.contrib.auth\",\n#     \"django.contrib.contenttypes\",\n#     \"django.contrib.sessions\",\n#     \"django.contrib.messages\",\n#     \"django.contrib.staticfiles\",\n# ]",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'chat',\n    'agents',\n    'conversations',",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\nMIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\nMIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"AMU.urls\"",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ROOT_URLCONF = \"AMU.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\n            BASE_DIR / 'templates',\n            BASE_DIR / 'chat' / 'templates',\n        ],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\n            BASE_DIR / 'templates',\n            BASE_DIR / 'chat' / 'templates',\n        ],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"AMU.wsgi.application\"\nload_dotenv()\n# ElevenLabs API settings\nELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')\nELEVENLABS_DEFAULT_VOICE_ID = os.getenv('ELEVENLABS_DEFAULT_VOICE_ID')\nELEVENLABS_DEFAULT_MODEL_ID = os.getenv('ELEVENLABS_DEFAULT_MODEL_ID')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Add CORS headers for API access\nINSTALLED_APPS += ['corsheaders']",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ELEVENLABS_API_KEY",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')\nELEVENLABS_DEFAULT_VOICE_ID = os.getenv('ELEVENLABS_DEFAULT_VOICE_ID')\nELEVENLABS_DEFAULT_MODEL_ID = os.getenv('ELEVENLABS_DEFAULT_MODEL_ID')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Add CORS headers for API access\nINSTALLED_APPS += ['corsheaders']\nMIDDLEWARE.insert(1, 'corsheaders.middleware.CorsMiddleware')\nCORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and configure specific origins\n# Configure MEDIA URL in development",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ELEVENLABS_DEFAULT_VOICE_ID",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ELEVENLABS_DEFAULT_VOICE_ID = os.getenv('ELEVENLABS_DEFAULT_VOICE_ID')\nELEVENLABS_DEFAULT_MODEL_ID = os.getenv('ELEVENLABS_DEFAULT_MODEL_ID')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Add CORS headers for API access\nINSTALLED_APPS += ['corsheaders']\nMIDDLEWARE.insert(1, 'corsheaders.middleware.CorsMiddleware')\nCORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and configure specific origins\n# Configure MEDIA URL in development\nif DEBUG:",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ELEVENLABS_DEFAULT_MODEL_ID",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ELEVENLABS_DEFAULT_MODEL_ID = os.getenv('ELEVENLABS_DEFAULT_MODEL_ID')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Add CORS headers for API access\nINSTALLED_APPS += ['corsheaders']\nMIDDLEWARE.insert(1, 'corsheaders.middleware.CorsMiddleware')\nCORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and configure specific origins\n# Configure MEDIA URL in development\nif DEBUG:\n    MEDIA_SERVING = True",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Add CORS headers for API access\nINSTALLED_APPS += ['corsheaders']\nMIDDLEWARE.insert(1, 'corsheaders.middleware.CorsMiddleware')\nCORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and configure specific origins\n# Configure MEDIA URL in development\nif DEBUG:\n    MEDIA_SERVING = True\n# Database",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Add CORS headers for API access\nINSTALLED_APPS += ['corsheaders']\nMIDDLEWARE.insert(1, 'corsheaders.middleware.CorsMiddleware')\nCORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and configure specific origins\n# Configure MEDIA URL in development\nif DEBUG:\n    MEDIA_SERVING = True\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and configure specific origins\n# Configure MEDIA URL in development\nif DEBUG:\n    MEDIA_SERVING = True\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configure logging",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configure logging\nLOGGING = {",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configure logging\nLOGGING = {\n    'version': 1,",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configure logging\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'formatters': {\n        'verbose': {",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configure logging\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'formatters': {\n        'verbose': {\n            'format': '{levelname} {asctime} {module} {message}',\n            'style': '{',\n        },",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGGING",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'formatters': {\n        'verbose': {\n            'format': '{levelname} {asctime} {module} {message}',\n            'style': '{',\n        },\n    },\n    'handlers': {",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ELEVENLABS_API_KEY",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ELEVENLABS_API_KEY = os.environ.get('ELEVENLABS_API_KEY')\nELEVENLABS_DEFAULT_VOICE = os.environ.get('ELEVENLABS_DEFAULT_VOICE_ID')\nELEVENLABS_VOICE_IDS = {\n    'male_child': os.environ.get('ELEVENLABS_MALE_CHILD_VOICE'),\n    'male_teen': os.environ.get('ELEVENLABS_MALE_TEEN_VOICE'),\n    'male_young_adult': os.environ.get('ELEVENLABS_MALE_YOUNG_ADULT_VOICE'),\n    'male_adult': os.environ.get('ELEVENLABS_MALE_ADULT_VOICE'),\n    'male_senior': os.environ.get('ELEVENLABS_MALE_SENIOR_VOICE'),\n    'female_child': os.environ.get('ELEVENLABS_FEMALE_CHILD_VOICE'),\n    'female_teen': os.environ.get('ELEVENLABS_FEMALE_TEEN_VOICE'),",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ELEVENLABS_DEFAULT_VOICE",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ELEVENLABS_DEFAULT_VOICE = os.environ.get('ELEVENLABS_DEFAULT_VOICE_ID')\nELEVENLABS_VOICE_IDS = {\n    'male_child': os.environ.get('ELEVENLABS_MALE_CHILD_VOICE'),\n    'male_teen': os.environ.get('ELEVENLABS_MALE_TEEN_VOICE'),\n    'male_young_adult': os.environ.get('ELEVENLABS_MALE_YOUNG_ADULT_VOICE'),\n    'male_adult': os.environ.get('ELEVENLABS_MALE_ADULT_VOICE'),\n    'male_senior': os.environ.get('ELEVENLABS_MALE_SENIOR_VOICE'),\n    'female_child': os.environ.get('ELEVENLABS_FEMALE_CHILD_VOICE'),\n    'female_teen': os.environ.get('ELEVENLABS_FEMALE_TEEN_VOICE'),\n    'female_young_adult': os.environ.get('ELEVENLABS_FEMALE_YOUNG_ADULT_VOICE'),",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ELEVENLABS_VOICE_IDS",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "ELEVENLABS_VOICE_IDS = {\n    'male_child': os.environ.get('ELEVENLABS_MALE_CHILD_VOICE'),\n    'male_teen': os.environ.get('ELEVENLABS_MALE_TEEN_VOICE'),\n    'male_young_adult': os.environ.get('ELEVENLABS_MALE_YOUNG_ADULT_VOICE'),\n    'male_adult': os.environ.get('ELEVENLABS_MALE_ADULT_VOICE'),\n    'male_senior': os.environ.get('ELEVENLABS_MALE_SENIOR_VOICE'),\n    'female_child': os.environ.get('ELEVENLABS_FEMALE_CHILD_VOICE'),\n    'female_teen': os.environ.get('ELEVENLABS_FEMALE_TEEN_VOICE'),\n    'female_young_adult': os.environ.get('ELEVENLABS_FEMALE_YOUNG_ADULT_VOICE'),\n    'female_adult': os.environ.get('ELEVENLABS_FEMALE_ADULT_VOICE'),",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "OLLAMA_BASE_URL",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "OLLAMA_BASE_URL = \"http://localhost:11434\"\nOPENAI_API_KEY = \"Mbase here\"\nDEFAULT_PRIMARY_PROVIDER = \"ollama\"\nDEFAULT_SECONDARY_PROVIDER = \"openai\"",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_API_KEY",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "OPENAI_API_KEY = \"Mbase here\"\nDEFAULT_PRIMARY_PROVIDER = \"ollama\"\nDEFAULT_SECONDARY_PROVIDER = \"openai\"",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PRIMARY_PROVIDER",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "DEFAULT_PRIMARY_PROVIDER = \"ollama\"\nDEFAULT_SECONDARY_PROVIDER = \"openai\"",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_SECONDARY_PROVIDER",
+        "kind": 5,
+        "importPath": "AMU.settings",
+        "description": "AMU.settings",
+        "peekOfCode": "DEFAULT_SECONDARY_PROVIDER = \"openai\"",
+        "detail": "AMU.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "AMU.urls",
+        "description": "AMU.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.index, name='index'),\n    path('chat/<int:profile_id>/', views.chat_interface, name='chat_interface'),\n    path('send_message/', views.send_message, name='send_message'),\n    path('api/tts/', txt_to_speech, name='txt_to_speech'),\n    path('api/delete_audio/', delete_audio, name='delete_audio'),\n    path('chat/', include('chat.urls')),\n    path('', include('personality_profiles.urls')),\n    path('add-character/', views.add_character, name='add_character'),",
+        "detail": "AMU.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "AMU.wsgi",
+        "description": "AMU.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "AMU.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAgent",
+        "kind": 6,
+        "importPath": "agents.services.base_agent",
+        "description": "agents.services.base_agent",
+        "peekOfCode": "class BaseAgent(ABC):\n    def __init__(self, model_name=\"llama3.2\", secondary_model_name=\"None\"):\n        self.model_name = model_name\n        secondary_model_name = secondary_model_name\n    @abstractmethod\n    async def process(self, *args, **kwargs):\n        pass\n    @abstractmethod\n    async def generate_response(self, *args, **kwargs):\n        pass",
+        "detail": "agents.services.base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "LLMProviderBase",
+        "kind": 6,
+        "importPath": "agents.services.llm_provider",
+        "description": "agents.services.llm_provider",
+        "peekOfCode": "class LLMProviderBase(ABC):\n    \"\"\"Base class for LLM providers\"\"\"\n    @abstractmethod\n    async def generate(self, prompt, system_prompt=None, context=None, model=None, language=None):\n        pass\nclass OllamaProvider(LLMProviderBase):\n    \"\"\"Ollama provider implementation\"\"\"\n    def __init__(self):\n        self.base_url = get_setting(\"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n    async def generate(self, prompt, system_prompt=None, context=None, model=None, language=None):",
+        "detail": "agents.services.llm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaProvider",
+        "kind": 6,
+        "importPath": "agents.services.llm_provider",
+        "description": "agents.services.llm_provider",
+        "peekOfCode": "class OllamaProvider(LLMProviderBase):\n    \"\"\"Ollama provider implementation\"\"\"\n    def __init__(self):\n        self.base_url = get_setting(\"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n    async def generate(self, prompt, system_prompt=None, context=None, model=None, language=None):\n        try:\n            # Select model based on language if not explicitly provided\n            if not model:\n                model = \"llama3.2\" if language == \"en\" else \"qwen2.5\"\n            url = f\"{self.base_url}/api/generate\"",
+        "detail": "agents.services.llm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIProvider",
+        "kind": 6,
+        "importPath": "agents.services.llm_provider",
+        "description": "agents.services.llm_provider",
+        "peekOfCode": "class OpenAIProvider(LLMProviderBase):\n    \"\"\"OpenAI provider implementation\"\"\"\n    def __init__(self):\n        self.api_key = get_setting(\"OPENAI_API_KEY\", None)\n        self.base_url = \"https://api.openai.com/v1/chat/completions\"\n        if not self.api_key:\n            raise Exception(\"OPENAI_API_KEY not found in settings or environment variables\")\n    async def generate(self, prompt, system_prompt=None, context=None, model=None, language=None):\n        try:\n            # Select model based on language if not explicitly provided",
+        "detail": "agents.services.llm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "LLMProviderAdapter",
+        "kind": 6,
+        "importPath": "agents.services.llm_provider",
+        "description": "agents.services.llm_provider",
+        "peekOfCode": "class LLMProviderAdapter:\n    \"\"\"Adapter that manages multiple LLM providers with fallback\"\"\"\n    def __init__(self, primary_provider=\"ollama\", secondary_provider=\"openai\"):\n        self.providers = {}\n        self.primary_provider = primary_provider\n        self.secondary_provider = secondary_provider\n        # Initialize providers\n        try:\n            self.providers[\"ollama\"] = OllamaProvider()\n        except Exception as e:",
+        "detail": "agents.services.llm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "get_setting",
+        "kind": 2,
+        "importPath": "agents.services.llm_provider",
+        "description": "agents.services.llm_provider",
+        "peekOfCode": "def get_setting(setting_name, default_value=None):\n    \"\"\"Safely get Django settings with fallback to environment variables\"\"\"\n    try:\n        from django.conf import settings\n        return getattr(settings, setting_name, default_value)\n    except Exception:\n        # If Django settings aren't configured, try environment variables\n        env_name = setting_name\n        return os.environ.get(env_name, default_value)\nclass LLMProviderBase(ABC):",
+        "detail": "agents.services.llm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "agents.services.llm_provider",
+        "description": "agents.services.llm_provider",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef get_setting(setting_name, default_value=None):\n    \"\"\"Safely get Django settings with fallback to environment variables\"\"\"\n    try:\n        from django.conf import settings\n        return getattr(settings, setting_name, default_value)\n    except Exception:\n        # If Django settings aren't configured, try environment variables\n        env_name = setting_name\n        return os.environ.get(env_name, default_value)",
+        "detail": "agents.services.llm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaService",
+        "kind": 6,
+        "importPath": "agents.services.ollama_service",
+        "description": "agents.services.ollama_service",
+        "peekOfCode": "class OllamaService:\n    def __init__(self):\n        self.base_url = getattr(settings, \"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n    async def generate(self, prompt, system_prompt=None, context=None, model=None, language=None):\n        \"\"\"\n        Generate a response using Ollama API\n        Args:\n            prompt: The user prompt\n            system_prompt: Optional system prompt\n            context: Optional context from previous exchanges",
+        "detail": "agents.services.ollama_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "agents.services.ollama_service",
+        "description": "agents.services.ollama_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass OllamaService:\n    def __init__(self):\n        self.base_url = getattr(settings, \"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n    async def generate(self, prompt, system_prompt=None, context=None, model=None, language=None):\n        \"\"\"\n        Generate a response using Ollama API\n        Args:\n            prompt: The user prompt\n            system_prompt: Optional system prompt",
+        "detail": "agents.services.ollama_service",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileBuilderAgent",
+        "kind": 6,
+        "importPath": "agents.services.profile_builder_agent",
+        "description": "agents.services.profile_builder_agent",
+        "peekOfCode": "class ProfileBuilderAgent(BaseAgent):\n    def __init__(self):\n        super().__init__(\"ProfileBuilder\", \"profile_builder\")\n    async def process_task(self, task_data):\n        # Extract personality traits and patterns\n        traits_prompt = f\"\"\"\n        Analyze the following data and extract key personality traits and patterns:\n        {json.dumps(task_data['raw_data'])}\n        Focus on:\n        1. Communication style",
+        "detail": "agents.services.profile_builder_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseGeneratorAgent",
+        "kind": 6,
+        "importPath": "agents.services.response_generator_agent",
+        "description": "agents.services.response_generator_agent",
+        "peekOfCode": "class ResponseGeneratorAgent(BaseAgent):\n    def __init__(self, personality_profile, model_name=None, language=\"en\", primary_provider=\"ollama\", secondary_provider=\"openai\"):\n        super().__init__(model_name)\n        self.personality_profile = personality_profile\n        self.language = language\n        # Initialize the LLM provider adapter\n        self.llm_adapter = LLMProviderAdapter(\n            primary_provider=primary_provider,\n            secondary_provider=secondary_provider\n        )",
+        "detail": "agents.services.response_generator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "WikipediaCollector",
+        "kind": 6,
+        "importPath": "agents.services.wiki_collector",
+        "description": "agents.services.wiki_collector",
+        "peekOfCode": "class WikipediaCollector:\n    def __init__(self):\n        self.wiki_service = WikipediaService()\n    def enrich_profile(self, profile_data, character_name):\n        \"\"\"Add Wikipedia information to a profile.\"\"\"\n        summary = self.wiki_service.get_summary(character_name)\n        if summary:\n            profile_data['background']['wikipedia_summary'] = summary\n        # You might want to extract specific sections relevant to personality\n        sections = self.wiki_service.get_sections(character_name)",
+        "detail": "agents.services.wiki_collector",
+        "documentation": {}
+    },
+    {
+        "label": "WikipediaService",
+        "kind": 6,
+        "importPath": "agents.services.wiki_service",
+        "description": "agents.services.wiki_service",
+        "peekOfCode": "class WikipediaService:\n    def __init__(self, user_agent=\"AMU-WikipediaReader/1.0\"):\n        self.wiki = wikipediaapi.Wikipedia(\n            language='en',\n            extract_format=wikipediaapi.ExtractFormat.WIKI,\n            user_agent=user_agent\n        )\n    def get_page(self, title):\n        \"\"\"Get a Wikipedia page by title.\"\"\"\n        return self.wiki.page(title)",
+        "detail": "agents.services.wiki_service",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "kind": 6,
+        "importPath": "agents.models",
+        "description": "agents.models",
+        "peekOfCode": "class Agent(models.Model):\n    name = models.CharField(max_length=100)\n    agent_type = models.CharField(max_length=50)  # data_collector, profile_builder, response_generator\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.agent_type}: {self.name}\"\nclass AgentTask(models.Model):\n    agent = models.ForeignKey(Agent, on_delete=models.CASCADE)\n    task_type = models.CharField(max_length=50)",
+        "detail": "agents.models",
+        "documentation": {}
+    },
+    {
+        "label": "AgentTask",
+        "kind": 6,
+        "importPath": "agents.models",
+        "description": "agents.models",
+        "peekOfCode": "class AgentTask(models.Model):\n    agent = models.ForeignKey(Agent, on_delete=models.CASCADE)\n    task_type = models.CharField(max_length=50)\n    status = models.CharField(max_length=20)  # pending, running, completed, failed\n    created_at = models.DateTimeField(auto_now_add=True)\n    completed_at = models.DateTimeField(null=True, blank=True)\n    result = models.JSONField(null=True, blank=True)",
+        "detail": "agents.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConfig",
+        "kind": 6,
+        "importPath": "chat.apps",
+        "description": "chat.apps",
+        "peekOfCode": "class ChatConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"chat\"",
+        "detail": "chat.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "chat.urls",
+        "description": "chat.urls",
+        "peekOfCode": "app_name = 'chat'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('chat/<int:profile_id>/', views.chat_interface, name='chat_interface'),\n    path('send_message/', views.send_message, name='send_message'),\n]",
+        "detail": "chat.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "chat.urls",
+        "description": "chat.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('chat/<int:profile_id>/', views.chat_interface, name='chat_interface'),\n    path('send_message/', views.send_message, name='send_message'),\n]",
+        "detail": "chat.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def index(request):\n    try:\n        profiles = PersonalityProfile.objects.all().order_by('name')\n        return render(request, 'chat/index.html', {\n            'profiles': profiles,\n            'error': None\n        })\n    except Exception as e:\n        logger.error(f\"Error in index view: {str(e)}\")\n        return render(request, 'chat/index.html', {",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "chat_interface",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def chat_interface(request, profile_id=None):\n    try:\n        # Get conversation_id from query params if available\n        conversation_id = request.GET.get('conversation_id')\n        if conversation_id:\n            # Load existing conversation\n            conversation = get_object_or_404(Conversation, id=conversation_id)\n            profile = conversation.profile\n        elif profile_id:\n            # Start new conversation with selected profile",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "send_message_sync",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def send_message_sync(request):\n    \"\"\"Synchronous version of send_message for compatibility\"\"\"\n    try:\n        data = json.loads(request.body)\n        user_message = data.get('message', '').strip()\n        conversation_id = data.get('conversation_id')\n        language = data.get('language', 'en')  # Get language preference, default to English\n        if not user_message or not conversation_id:\n            return JsonResponse({'status': 'error', 'message': 'Missing required fields'})\n        # Get conversation",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_character",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def add_character(request):\n    \"\"\"View for adding a new character profile by regular users\"\"\"\n    if request.method == 'POST':\n        try:\n            # Extract form data\n            first_name = request.POST.get('first_name')\n            last_name = request.POST.get('last_name')\n            name = f\"{first_name} {last_name}\".strip()\n            description = request.POST.get('description')\n            background_story = request.POST.get('background_story')",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Create sync_to_async versions of all database operations\nget_profile_async = sync_to_async(get_object_or_404)\ncreate_message_async = sync_to_async(Message.objects.create)\nsave_conversation_async = sync_to_async(lambda x: x.save())\ndef index(request):\n    try:\n        profiles = PersonalityProfile.objects.all().order_by('name')\n        return render(request, 'chat/index.html', {\n            'profiles': profiles,",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_async",
+        "kind": 5,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "get_profile_async = sync_to_async(get_object_or_404)\ncreate_message_async = sync_to_async(Message.objects.create)\nsave_conversation_async = sync_to_async(lambda x: x.save())\ndef index(request):\n    try:\n        profiles = PersonalityProfile.objects.all().order_by('name')\n        return render(request, 'chat/index.html', {\n            'profiles': profiles,\n            'error': None\n        })",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_message_async",
+        "kind": 5,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "create_message_async = sync_to_async(Message.objects.create)\nsave_conversation_async = sync_to_async(lambda x: x.save())\ndef index(request):\n    try:\n        profiles = PersonalityProfile.objects.all().order_by('name')\n        return render(request, 'chat/index.html', {\n            'profiles': profiles,\n            'error': None\n        })\n    except Exception as e:",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "save_conversation_async",
+        "kind": 5,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "save_conversation_async = sync_to_async(lambda x: x.save())\ndef index(request):\n    try:\n        profiles = PersonalityProfile.objects.all().order_by('name')\n        return render(request, 'chat/index.html', {\n            'profiles': profiles,\n            'error': None\n        })\n    except Exception as e:\n        logger.error(f\"Error in index view: {str(e)}\")",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "conversations.migrations.0001_initial",
+        "description": "conversations.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"personality_profiles\", \"__first__\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Conversation\",\n            fields=[\n                (",
+        "detail": "conversations.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "conversations.migrations.0002_message_context_data",
+        "description": "conversations.migrations.0002_message_context_data",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"conversations\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"message\",\n            name=\"context_data\",\n            field=models.JSONField(blank=True, default=dict, null=True),\n        ),",
+        "detail": "conversations.migrations.0002_message_context_data",
+        "documentation": {}
+    },
+    {
+        "label": "ContextManager",
+        "kind": 6,
+        "importPath": "conversations.services.context_manager",
+        "description": "conversations.services.context_manager",
+        "peekOfCode": "class ContextManager:\n    @staticmethod\n    async def create_conversation(profile_id):\n        conversation = Conversation.objects.create(\n            profile_id=profile_id,\n            metadata={'start_time': datetime.now().isoformat()}\n        )\n        return conversation\n    @staticmethod\n    async def add_message(conversation_id, content, role, context=None):",
+        "detail": "conversations.services.context_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseGenerator",
+        "kind": 6,
+        "importPath": "conversations.services.response_generator",
+        "description": "conversations.services.response_generator",
+        "peekOfCode": "class ResponseGenerator:\n    \"\"\"Service for generating responses to user messages\"\"\"\n    def __init__(self):\n        self.profile_manager = ProfileManager()\n    async def generate_response(self, user_message, personality_id, conversation_history=None):\n        \"\"\"\n        Generate a response to a user message\n        Args:\n            user_message (str): The user's message\n            personality_id (int): The ID of the personality to use",
+        "detail": "conversations.services.response_generator",
+        "documentation": {}
+    },
+    {
+        "label": "TTSService",
+        "kind": 6,
+        "importPath": "conversations.services.txt_to_speech",
+        "description": "conversations.services.txt_to_speech",
+        "peekOfCode": "class TTSService:\n    def __init__(self, api_key=settings.ELEVENLABS_API_KEY):\n        self.client = ElevenLabs(\n            api_key=api_key\n        )\n        self.default_voice_id = settings.ELEVENLABS_DEFAULT_VOICE\n        self.default_model_id = \"eleven_multilingual_v2\"\n        # Voice mapping based on gender and age range from settings\n        voices = settings.ELEVENLABS_VOICE_IDS\n        self.voice_mapping = {",
+        "detail": "conversations.services.txt_to_speech",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationAdmin",
+        "kind": 6,
+        "importPath": "conversations.admin",
+        "description": "conversations.admin",
+        "peekOfCode": "class ConversationAdmin(admin.ModelAdmin):\n    list_display = ('profile', 'started_at', 'last_activity')\n    list_filter = ('profile', 'started_at')\n@admin.register(Message)\nclass MessageAdmin(admin.ModelAdmin):\n    list_display = ('conversation', 'is_user', 'content', 'timestamp')\n    list_filter = ('is_user', 'timestamp')",
+        "detail": "conversations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MessageAdmin",
+        "kind": 6,
+        "importPath": "conversations.admin",
+        "description": "conversations.admin",
+        "peekOfCode": "class MessageAdmin(admin.ModelAdmin):\n    list_display = ('conversation', 'is_user', 'content', 'timestamp')\n    list_filter = ('is_user', 'timestamp')",
+        "detail": "conversations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "kind": 6,
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "peekOfCode": "class Conversation(models.Model):\n    profile = models.ForeignKey(PersonalityProfile, on_delete=models.CASCADE)\n    started_at = models.DateTimeField(auto_now_add=True)\n    last_activity = models.DateTimeField(auto_now=True)\n    context = models.JSONField(default=dict)\n    def __str__(self):\n        return f\"Conversation with {self.profile.name} at {self.started_at}\"\nclass Message(models.Model):\n    conversation = models.ForeignKey(Conversation, on_delete=models.CASCADE)\n    content = models.TextField()",
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "conversations.models",
+        "description": "conversations.models",
+        "peekOfCode": "class Message(models.Model):\n    conversation = models.ForeignKey(Conversation, on_delete=models.CASCADE)\n    content = models.TextField()\n    is_user = models.BooleanField()\n    timestamp = models.DateTimeField(auto_now_add=True)\n    context_data = models.JSONField(default=dict, null=True, blank=True)  # Add this field\n    class Meta:\n        ordering = ['timestamp']\n    def __str__(self):\n        return f\"{'User' if self.is_user else 'Bot'}: {self.content[:50]}\"",
+        "detail": "conversations.models",
+        "documentation": {}
+    },
+    {
+        "label": "txt_to_speech",
+        "kind": 2,
+        "importPath": "conversations.views",
+        "description": "conversations.views",
+        "peekOfCode": "def txt_to_speech(request):\n    try:\n        data = json.loads(request.body)\n        text = data.get('text', '')\n        personality_id = data.get('personality_id')\n        if not text:\n            return JsonResponse({'success': False, 'error': 'No text provided'})\n        tts_service = TTSService()\n        audio_url = tts_service.convert_text_to_audio_file(text, personality_id)\n        return JsonResponse({",
+        "detail": "conversations.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_audio",
+        "kind": 2,
+        "importPath": "conversations.views",
+        "description": "conversations.views",
+        "peekOfCode": "def delete_audio(request):\n    try:\n        data = json.loads(request.body)\n        filename = data.get('filename', '')\n        if not filename:\n            return JsonResponse({'success': False, 'error': 'No filename provided'})\n        # Ensure we're only deleting files from the audio directory\n        if not filename.startswith('tts_') or not filename.endswith('.mp3'):\n            return JsonResponse({'success': False, 'error': 'Invalid filename format'})\n        # Construct the path to the file",
+        "detail": "conversations.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "personality_profiles.migrations.0001_initial",
+        "description": "personality_profiles.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"PersonalityProfile\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "personality_profiles.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "personality_profiles.migrations.0002_alter_personalityprofile_description",
+        "description": "personality_profiles.migrations.0002_alter_personalityprofile_description",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"personality_profiles\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"personalityprofile\",\n            name=\"description\",\n            field=models.JSONField(),\n        ),",
+        "detail": "personality_profiles.migrations.0002_alter_personalityprofile_description",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "personality_profiles.migrations.0003_alter_personalityprofile_description",
+        "description": "personality_profiles.migrations.0003_alter_personalityprofile_description",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"personality_profiles\", \"0002_alter_personalityprofile_description\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"personalityprofile\",\n            name=\"description\",\n            field=models.TextField(),\n        ),",
+        "detail": "personality_profiles.migrations.0003_alter_personalityprofile_description",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "personality_profiles.migrations.0004_personalityprofile_age_range_and_more",
+        "description": "personality_profiles.migrations.0004_personalityprofile_age_range_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"personality_profiles\", \"0003_alter_personalityprofile_description\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"personalityprofile\",\n            name=\"age_range\",\n            field=models.CharField(\n                blank=True,",
+        "detail": "personality_profiles.migrations.0004_personalityprofile_age_range_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "personality_profiles.migrations.0005_personalityprofile_image",
+        "description": "personality_profiles.migrations.0005_personalityprofile_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"personality_profiles\", \"0004_personalityprofile_age_range_and_more\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"personalityprofile\",\n            name=\"image\",\n            field=models.ImageField(\n                blank=True, null=True, upload_to=\"character_images/\"",
+        "detail": "personality_profiles.migrations.0005_personalityprofile_image",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileLoader",
+        "kind": 6,
+        "importPath": "personality_profiles.services.profile_loader",
+        "description": "personality_profiles.services.profile_loader",
+        "peekOfCode": "class ProfileLoader:\n    @staticmethod\n    def load_from_json(file_path):\n        \"\"\"Load a personality profile from a JSON file\"\"\"\n        try:\n            with open(file_path, \"r\", encoding=\"utf-8\") as file:\n                data = json.load(file)\n            profile = PersonalityProfile(\n                name=data.get(\"name\", \"\"),\n                description=data.get(\"description\", \"\"),",
+        "detail": "personality_profiles.services.profile_loader",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileManager",
+        "kind": 6,
+        "importPath": "personality_profiles.services.profile_manager",
+        "description": "personality_profiles.services.profile_manager",
+        "peekOfCode": "class ProfileManager:\n    @staticmethod\n    async def create_profile(name, profile_type, data_sources):\n        profile = PersonalityProfile.objects.create(\n            name=name,\n            profile_type=profile_type,\n            data_sources=data_sources,\n            behavioral_patterns={},\n            speech_patterns={}\n        )",
+        "detail": "personality_profiles.services.profile_manager",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfileAdmin",
+        "kind": 6,
+        "importPath": "personality_profiles.admin",
+        "description": "personality_profiles.admin",
+        "peekOfCode": "class PersonalityProfileAdmin(admin.ModelAdmin):\n    list_display = ('name', 'display_image', 'gender', 'age_range', 'created_at', 'updated_at')\n    search_fields = ('name', 'description')\n    list_filter = ('gender', 'age_range')\n    readonly_fields = ('created_at', 'updated_at', 'display_large_image')\n    def display_image(self, obj):\n        if obj.image:\n            return format_html('<img src=\"{}\" width=\"50\" height=\"50\" style=\"object-fit: cover; border-radius: 50%;\" />', obj.image.url)\n        return \"No Image\"\n    display_image.short_description = 'Profile Picture'",
+        "detail": "personality_profiles.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfileForm",
+        "kind": 6,
+        "importPath": "personality_profiles.forms",
+        "description": "personality_profiles.forms",
+        "peekOfCode": "class PersonalityProfileForm(forms.ModelForm):\n    class Meta:\n        model = PersonalityProfile\n        fields = [\n            'name', \n            'description', \n            'background_story',\n            'gender',\n            'age_range',\n            'image'",
+        "detail": "personality_profiles.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalityProfile",
+        "kind": 6,
+        "importPath": "personality_profiles.models",
+        "description": "personality_profiles.models",
+        "peekOfCode": "class PersonalityProfile(models.Model):\n    GENDER_CHOICES = [\n        ('M', 'Male'),\n        ('F', 'Female'),\n    ]\n    AGE_RANGE_CHOICES = [\n        ('child', 'Child (0-12)'),\n        ('teen', 'Teenager (13-19)'),\n        ('young_adult', 'Young Adult (20-35)'),\n        ('adult', 'Adult (36-50)'),",
+        "detail": "personality_profiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "personality_profiles.urls",
+        "description": "personality_profiles.urls",
+        "peekOfCode": "urlpatterns = [\n    path('profiles/', views.profile_list, name='profile_list'),\n    path('profiles/create/', views.profile_create, name='profile_create'),\n    path('profiles/<int:profile_id>/', views.profile_detail, name='profile_detail'),\n    path('profiles/<int:profile_id>/edit/', views.profile_edit, name='profile_edit'),\n    path('profiles/<int:profile_id>/delete/', views.profile_delete, name='profile_delete'),\n]",
+        "detail": "personality_profiles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "profile_list",
+        "kind": 2,
+        "importPath": "personality_profiles.views",
+        "description": "personality_profiles.views",
+        "peekOfCode": "def profile_list(request):\n    profiles = PersonalityProfile.objects.all().order_by('name')\n    return render(request, 'personality_profiles/profile_list.html', {\n        'profiles': profiles\n    })\ndef profile_detail(request, profile_id):\n    profile = get_object_or_404(PersonalityProfile, id=profile_id)\n    # Get conversations with this profile for the current user\n    conversations = Conversation.objects.filter(profile=profile).order_by('-last_activity')\n    return render(request, 'personality_profiles/profile_detail.html', {",
+        "detail": "personality_profiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_detail",
+        "kind": 2,
+        "importPath": "personality_profiles.views",
+        "description": "personality_profiles.views",
+        "peekOfCode": "def profile_detail(request, profile_id):\n    profile = get_object_or_404(PersonalityProfile, id=profile_id)\n    # Get conversations with this profile for the current user\n    conversations = Conversation.objects.filter(profile=profile).order_by('-last_activity')\n    return render(request, 'personality_profiles/profile_detail.html', {\n        'profile': profile,\n        'conversations': conversations\n    })\n@login_required\ndef profile_create(request):",
+        "detail": "personality_profiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_create",
+        "kind": 2,
+        "importPath": "personality_profiles.views",
+        "description": "personality_profiles.views",
+        "peekOfCode": "def profile_create(request):\n    if request.method == 'POST':\n        form = PersonalityProfileForm(request.POST, request.FILES)\n        if form.is_valid():\n            profile = form.save(commit=False)\n            # Set JSON fields from cleaned data\n            profile.personality_traits = form.cleaned_data['personality_traits']\n            profile.speech_patterns = form.cleaned_data['speech_patterns']\n            profile.knowledge_base = form.cleaned_data['knowledge_base']\n            profile.save()",
+        "detail": "personality_profiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_edit",
+        "kind": 2,
+        "importPath": "personality_profiles.views",
+        "description": "personality_profiles.views",
+        "peekOfCode": "def profile_edit(request, profile_id):\n    profile = get_object_or_404(PersonalityProfile, id=profile_id)\n    if request.method == 'POST':\n        form = PersonalityProfileForm(request.POST, request.FILES, instance=profile)\n        if form.is_valid():\n            profile = form.save(commit=False)\n            # Set JSON fields from cleaned data\n            profile.personality_traits = form.cleaned_data['personality_traits']\n            profile.speech_patterns = form.cleaned_data['speech_patterns']\n            profile.knowledge_base = form.cleaned_data['knowledge_base']",
+        "detail": "personality_profiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_delete",
+        "kind": 2,
+        "importPath": "personality_profiles.views",
+        "description": "personality_profiles.views",
+        "peekOfCode": "def profile_delete(request, profile_id):\n    profile = get_object_or_404(PersonalityProfile, id=profile_id)\n    if request.method == 'POST':\n        profile_name = profile.name\n        profile.delete()\n        messages.success(request, f\"Profile '{profile_name}' has been deleted.\")\n        return redirect('profile_list')\n    return render(request, 'personality_profiles/profile_confirm_delete.html', {\n        'profile': profile\n    })",
+        "detail": "personality_profiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "print_encoding_info",
+        "kind": 2,
+        "importPath": "apitry",
+        "description": "apitry",
+        "peekOfCode": "def print_encoding_info():\n    \"\"\"Print information about the system's default encoding\"\"\"\n    print(\"\\n=== Encoding Information ===\")\n    print(f\"Default encoding: {sys.getdefaultencoding()}\")\n    print(f\"stdout encoding: {sys.stdout.encoding}\")\n    print(f\"stdin encoding: {sys.stdin.encoding}\")\n    print(\"===========================\\n\")\ndef test_turkish_chars():\n    \"\"\"Test handling of Turkish characters\"\"\"\n    turkish_chars = \"ığşçöüİĞŞÇÖÜ\"",
+        "detail": "apitry",
+        "documentation": {}
+    },
+    {
+        "label": "test_turkish_chars",
+        "kind": 2,
+        "importPath": "apitry",
+        "description": "apitry",
+        "peekOfCode": "def test_turkish_chars():\n    \"\"\"Test handling of Turkish characters\"\"\"\n    turkish_chars = \"ığşçöüİĞŞÇÖÜ\"\n    print(\"Turkish characters:\")\n    print(turkish_chars)\n    # Test encoding/decoding\n    print(\"\\nEncoding/decoding test:\")\n    encoded = turkish_chars.encode('utf-8')\n    decoded = encoded.decode('utf-8')\n    print(f\"Original: {turkish_chars}\")",
+        "detail": "apitry",
+        "documentation": {}
+    },
+    {
+        "label": "test_json_handling",
+        "kind": 2,
+        "importPath": "apitry",
+        "description": "apitry",
+        "peekOfCode": "def test_json_handling():\n    \"\"\"Test handling Turkish characters in JSON\"\"\"\n    test_data = {\n        \"message\": \"Merhaba, nasılsın? İşler yolunda mı?\",\n        \"special_chars\": \"ığşçöüİĞŞÇÖÜ\"\n    }\n    print(\"\\n=== JSON Handling Test ===\")\n    # Encode to JSON\n    json_str = json.dumps(test_data)\n    print(f\"JSON encoded: {json_str}\")",
+        "detail": "apitry",
+        "documentation": {}
+    },
+    {
+        "label": "print_debug_suggestions",
+        "kind": 2,
+        "importPath": "apitry",
+        "description": "apitry",
+        "peekOfCode": "def print_debug_suggestions():\n    \"\"\"Print debugging suggestions for Turkish character issues\"\"\"\n    print(\"\\n=== Debugging Suggestions ===\")\n    print(\"1. Check if all parts of your application use UTF-8 encoding\")\n    print(\"2. Make sure your frontend properly encodes Turkish characters when sending to backend\")\n    print(\"3. Check Network tab in browser DevTools to see if Turkish characters are being sent correctly\")\n    print(\"4. Look for specific error messages when Turkish characters are used\")\n    print(\"5. Consider adding error handling for language detection\")\n    print(\"6. Try bypassing the language detection and hardcode a test with the qwen model\")\n    print(\"==============================\")",
+        "detail": "apitry",
+        "documentation": {}
+    },
+    {
+        "label": "check_ollama_running",
+        "kind": 2,
+        "importPath": "check_ollama_files",
+        "description": "check_ollama_files",
+        "peekOfCode": "def check_ollama_running():\n    \"\"\"Check if Ollama service is running\"\"\"\n    try:\n        response = requests.get(\"http://localhost:11434/api/tags\")\n        return response.status_code == 200\n    except requests.exceptions.ConnectionError:\n        return False\ndef get_available_models():\n    \"\"\"Get list of available models in Ollama\"\"\"\n    try:",
+        "detail": "check_ollama_files",
+        "documentation": {}
+    },
+    {
+        "label": "get_available_models",
+        "kind": 2,
+        "importPath": "check_ollama_files",
+        "description": "check_ollama_files",
+        "peekOfCode": "def get_available_models():\n    \"\"\"Get list of available models in Ollama\"\"\"\n    try:\n        response = requests.get(\"http://localhost:11434/api/tags\")\n        if response.status_code == 200:\n            data = response.json()\n            return [model.get(\"name\") for model in data.get(\"models\", [])]\n        return []\n    except requests.exceptions.ConnectionError:\n        return []",
+        "detail": "check_ollama_files",
+        "documentation": {}
+    },
+    {
+        "label": "download_missing_models",
+        "kind": 2,
+        "importPath": "check_ollama_files",
+        "description": "check_ollama_files",
+        "peekOfCode": "def download_missing_models():\n    \"\"\"Download any missing required models\"\"\"\n    available_models = get_available_models()\n    for model in REQUIRED_MODELS:\n        if model not in available_models:\n            print(f\"Model '{model}' is not installed. Downloading now...\")\n            try:\n                subprocess.run([\"ollama\", \"pull\", model], check=True)\n                print(f\"Successfully downloaded {model}\")\n            except subprocess.CalledProcessError as e:",
+        "detail": "check_ollama_files",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "check_ollama_files",
+        "description": "check_ollama_files",
+        "peekOfCode": "def main():\n    \"\"\"Main function\"\"\"\n    print(\"Checking Ollama service and model availability...\")\n    if not check_ollama_running():\n        print(\"ERROR: Ollama service is not running!\")\n        print(\"Please start Ollama with 'ollama serve' command\")\n        return 1\n    print(\"Ollama service is running.\")\n    download_missing_models()\n    available_models = get_available_models()",
+        "detail": "check_ollama_files",
+        "documentation": {}
+    },
+    {
+        "label": "REQUIRED_MODELS",
+        "kind": 5,
+        "importPath": "check_ollama_files",
+        "description": "check_ollama_files",
+        "peekOfCode": "REQUIRED_MODELS = [\"llama3.2\", \"qwen2.5\"]\ndef check_ollama_running():\n    \"\"\"Check if Ollama service is running\"\"\"\n    try:\n        response = requests.get(\"http://localhost:11434/api/tags\")\n        return response.status_code == 200\n    except requests.exceptions.ConnectionError:\n        return False\ndef get_available_models():\n    \"\"\"Get list of available models in Ollama\"\"\"",
+        "detail": "check_ollama_files",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"AMU.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_profiles",
+        "kind": 5,
+        "importPath": "terminal",
+        "description": "terminal",
+        "peekOfCode": "get_all_profiles = sync_to_async(lambda: list(PersonalityProfile.objects.all()))\ncreate_conversation = sync_to_async(Conversation.objects.create)\ncreate_message = sync_to_async(Message.objects.create)\nsave_conversation = sync_to_async(lambda x: x.save())\nget_conversation_messages = sync_to_async(lambda conv: list(Message.objects.filter(conversation=conv).order_by('timestamp')))\nasync def display_profile_info(profile):\n    \"\"\"Display the character's information before starting chat\"\"\"\n    print(\"\\n\" + \"=\"*50)\n    print(f\"Character Profile: {profile.name}\")\n    print(\"=\"*50)",
+        "detail": "terminal",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation",
+        "kind": 5,
+        "importPath": "terminal",
+        "description": "terminal",
+        "peekOfCode": "create_conversation = sync_to_async(Conversation.objects.create)\ncreate_message = sync_to_async(Message.objects.create)\nsave_conversation = sync_to_async(lambda x: x.save())\nget_conversation_messages = sync_to_async(lambda conv: list(Message.objects.filter(conversation=conv).order_by('timestamp')))\nasync def display_profile_info(profile):\n    \"\"\"Display the character's information before starting chat\"\"\"\n    print(\"\\n\" + \"=\"*50)\n    print(f\"Character Profile: {profile.name}\")\n    print(\"=\"*50)\n    print(f\"Description: {profile.description}\")",
+        "detail": "terminal",
+        "documentation": {}
+    },
+    {
+        "label": "create_message",
+        "kind": 5,
+        "importPath": "terminal",
+        "description": "terminal",
+        "peekOfCode": "create_message = sync_to_async(Message.objects.create)\nsave_conversation = sync_to_async(lambda x: x.save())\nget_conversation_messages = sync_to_async(lambda conv: list(Message.objects.filter(conversation=conv).order_by('timestamp')))\nasync def display_profile_info(profile):\n    \"\"\"Display the character's information before starting chat\"\"\"\n    print(\"\\n\" + \"=\"*50)\n    print(f\"Character Profile: {profile.name}\")\n    print(\"=\"*50)\n    print(f\"Description: {profile.description}\")\n    print(f\"Background: {profile.background_story}\")",
+        "detail": "terminal",
+        "documentation": {}
+    },
+    {
+        "label": "save_conversation",
+        "kind": 5,
+        "importPath": "terminal",
+        "description": "terminal",
+        "peekOfCode": "save_conversation = sync_to_async(lambda x: x.save())\nget_conversation_messages = sync_to_async(lambda conv: list(Message.objects.filter(conversation=conv).order_by('timestamp')))\nasync def display_profile_info(profile):\n    \"\"\"Display the character's information before starting chat\"\"\"\n    print(\"\\n\" + \"=\"*50)\n    print(f\"Character Profile: {profile.name}\")\n    print(\"=\"*50)\n    print(f\"Description: {profile.description}\")\n    print(f\"Background: {profile.background_story}\")\n    print(f\"Personality: {profile.personality_traits}\")",
+        "detail": "terminal",
+        "documentation": {}
+    },
+    {
+        "label": "get_conversation_messages",
+        "kind": 5,
+        "importPath": "terminal",
+        "description": "terminal",
+        "peekOfCode": "get_conversation_messages = sync_to_async(lambda conv: list(Message.objects.filter(conversation=conv).order_by('timestamp')))\nasync def display_profile_info(profile):\n    \"\"\"Display the character's information before starting chat\"\"\"\n    print(\"\\n\" + \"=\"*50)\n    print(f\"Character Profile: {profile.name}\")\n    print(\"=\"*50)\n    print(f\"Description: {profile.description}\")\n    print(f\"Background: {profile.background_story}\")\n    print(f\"Personality: {profile.personality_traits}\")\n    print(f\"Speech Patterns: {profile.speech_patterns}\")",
+        "detail": "terminal",
+        "documentation": {}
+    }
+]
