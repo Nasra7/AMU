@@ -22,7 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-vcvvz-1g53&yjaw$^g%6batbvixgd%)!%@h1jn8c6+0i!-b5o3"
+SECRET_KEY = os.getenv(
+    "DJANGO_SECRET_KEY",
+    "django-insecure-vcvvz-1g53&yjaw$^g%6batbvixgd%)!%@h1jn8c6+0i!-b5o3",
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,15 +34,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
-# INSTALLED_APPS = [
-#     "django.contrib.admin",
-#     "django.contrib.auth",
-#     "django.contrib.contenttypes",
-#     "django.contrib.sessions",
-#     "django.contrib.messages",
-#     "django.contrib.staticfiles",
-# ]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -95,10 +89,6 @@ WSGI_APPLICATION = "AMU.wsgi.application"
 
 load_dotenv()
 
-# ElevenLabs API settings
-ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
-ELEVENLABS_DEFAULT_VOICE_ID = os.getenv('ELEVENLABS_DEFAULT_VOICE_ID')
-ELEVENLABS_DEFAULT_MODEL_ID = os.getenv('ELEVENLABS_DEFAULT_MODEL_ID')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -198,6 +188,7 @@ LOGGING = {
 # ElevenLabs settings
 ELEVENLABS_API_KEY = os.environ.get('ELEVENLABS_API_KEY')
 ELEVENLABS_DEFAULT_VOICE = os.environ.get('ELEVENLABS_DEFAULT_VOICE_ID')
+ELEVENLABS_DEFAULT_MODEL_ID = os.environ.get('ELEVENLABS_DEFAULT_MODEL_ID', 'eleven_multilingual_v2')
 ELEVENLABS_VOICE_IDS = {
     'male_child': os.environ.get('ELEVENLABS_MALE_CHILD_VOICE'),
     'male_teen': os.environ.get('ELEVENLABS_MALE_TEEN_VOICE'),
@@ -212,7 +203,7 @@ ELEVENLABS_VOICE_IDS = {
 }
 
 OLLAMA_BASE_URL = "http://localhost:11434"
-OPENAI_API_KEY = "Mbase here"
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 DEFAULT_PRIMARY_PROVIDER = "ollama"
 DEFAULT_SECONDARY_PROVIDER = "openai"

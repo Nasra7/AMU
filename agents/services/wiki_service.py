@@ -1,4 +1,3 @@
-# In file: Agents/Services/wikipedia_service.py
 import wikipediaapi
 
 class WikipediaService:

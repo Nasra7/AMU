@@ -1,22 +1,4 @@
-# from elevenlabs import stream
-# from elevenlabs.client import ElevenLabs
-
-# # Create the client with your API key
-# client = ElevenLabs(
-#   api_key='sk_82c5a3ce0a27b87375ff16b7a56b562f3288a8934321b9f9'
-# )
-
-# # Test text-to-speech streaming
-# audio_stream = client.text_to_speech.convert_as_stream(
-#     text="This is a test of ElevenLabs API integration with Ollama",
-#     voice_id="2EiwWnXFnvU5JabPnv8n",
-#     #voice_id="21m00Tcm4TlvDq8ikWAM",  # You'll need a valid voice ID
-#     model_id="eleven_multilingual_v2"
-# )
-
-# # Play the audio to test
-# stream(audio_stream)
-
+"""Diagnostic script for Turkish-character handling in the Ollama API pipeline."""
 import json
 import requests
 import asyncio
